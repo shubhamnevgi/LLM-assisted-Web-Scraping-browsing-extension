@@ -8,7 +8,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "chrome-extension://mckfjmknlnonhljacbjmniddfdllhlmp",  # Replace with your extension ID
+        "chrome-extension://<extension-id>",  # Replace with your extension ID
         "http://localhost",  # Allow requests from localhost (for testing)
     ],
     allow_methods=["*"],  # Allow all HTTP methods
