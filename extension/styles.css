@@ -1,0 +1,72 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  width: 350px;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.logo {
+  width: 64px;
+  height: 64px;
+  margin-right: 10px;
+}
+
+.card {
+  border: none;
+  border-radius: 12px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  padding: 8px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+#output {
+  margin-top: 15px;
+}
+
+#previewTable {
+  width: 100%;
+  margin-top: 15px;
+  border-collapse: collapse;
+}
+
+#previewTable th, #previewTable td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+#previewTable th {
+  background-color: #f1f1f1;
+  font-weight: bold;
+}
+
+/* Title styling */
+.extension-title {
+  font-family: 'Playfair Display', serif; /* Elegant serif font */
+  font-weight: bold;
+  font-size: 24px; /* Slightly larger for better readability */
+  color: #343a40; /* Dark gray for modern look */
+  margin: 0; /* Remove default margin */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+
+/* Flexbox container for alignment */
+.text-center.d-flex {
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+}
