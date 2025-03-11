@@ -1,0 +1,165 @@
+Static Websites
+1. Books to Scrape
+URL: http://books.toscrape.com
+Parsing Description:
+
+"Extract the following fields from each book: Title, Price, Availability (in stock or not), Rating (as text or numeric), and the relative URL to the book's detail page. Output the data in CSV format with headers."
+
+2. Quotes to Scrape (Static Version)
+URL: http://quotes.toscrape.com
+Parsing Description:
+
+"Extract all quotes from the page by retrieving: Quote text, Author, and associated Tags. Ensure that only the quote elements are returned, without any additional commentary."
+
+3. Web Scraper Test Site – Static E-commerce Site
+URL: http://webscraper.io/test-sites/e-commerce/static
+Parsing Description:
+
+"Extract product information from the static e-commerce page. For each product, extract the Product Name, Price, Description snippet, and Product Image URL. Return the output as a CSV with appropriate headers."
+
+4. Example.com
+URL: https://example.com
+Parsing Description:
+
+"Extract the main heading (h1 element) and the primary paragraph text from the page. Ignore any navigation or footer content and output only the core example content."
+
+5. MIT OpenCourseWare
+URL: https://ocw.mit.edu
+Parsing Description:
+
+"Extract course listings from the homepage (or a dedicated courses page). For each course, retrieve the Course Title, a brief Description, and the URL to the course details page. Output the data in CSV format."
+
+Dynamic Websites
+1. Quotes to Scrape (JavaScript Version)
+URL: http://quotes.toscrape.com/js/
+Parsing Description:
+
+"Extract dynamically loaded quotes from the page. For each quote, capture the Quote text, Author, and Tags. Ensure that the output contains only the CSV data with no extra preamble text."
+
+2. Web Scraper Test Sites – Dynamic E-commerce Examples
+(These pages include AJAX pagination, 'Load More' buttons, or infinite scroll)
+URL: Use the dynamic examples from Web Scraper Test Sites (for example, the one with AJAX pagination or 'Load More' features).
+Parsing Description:
+
+"Extract product details from the dynamically loaded e-commerce page. For each product, retrieve Product Name, Price, Rating, and Image URL. Ensure the parser handles pagination or 'load more' scenarios and returns a complete CSV list."
+
+3. News Websites (e.g., BBC News or CNN)
+URL:
+
+https://www.bbc.com/news
+https://www.cnn.com
+Parsing Description:
+"Extract the main headlines from the homepage. For each news item, capture the Headline, a short Summary (if available), and the Publication Date. Output the results in CSV format."
+
+4. Social Media Platforms (for Testing Purposes)
+(Note: Scraping real social media content might require authentication and careful compliance with terms.)
+URL: https://www.reddit.com
+Parsing Description:
+
+"Extract the main posts from the front page. For each post, extract the Post Title, Author, Upvote Count, and the URL to the post. Ensure only publicly available data is scraped."
+
+5. Interactive Corporate/Entertainment Sites (e.g., parts of IMDb)
+URL: (For instance, you might use an IMDb search results page or a specific list page)
+Parsing Description:
+
+"Extract movie listings from the page. For each movie, capture the Movie Title, Release Year, IMDb Rating, and Genre. Output the extracted data in CSV format with clear headers."
+
+
+====================================================================================================================
+
+
+1. E-commerce (Books)
+Website URLs (one per line):
+
+http://books.toscrape.com
+http://books.toscrape.com/catalogue/category/books/mystery_3/index.html
+http://books.toscrape.com/catalogue/category/books/historical-fiction_4/index.html
+Parsing Description: "Extract the following fields from each book: Title, Price, Availability (in stock or not), Rating (text or numeric), and the relative URL to the book's detail page."
+
+2. News
+Website URLs (one per line):
+
+https://www.bbc.com/news
+https://www.cnn.com
+https://www.aljazeera.com/news
+https://news.ycombinator.com/news
+Parsing Description: "Extract the following fields from each news article: Headline, Author (if available), Publication Date, a brief Summary, and the article URL."
+
+3. Technology Blogs
+Website URLs (one per line):
+
+https://techcrunch.com
+https://thenextweb.com
+https://www.engadget.com
+Parsing Description: "Extract the following fields from each blog post: Title, Author, Publish Date, a brief Summary, and the link to the full article."
+
+4. Financial Data
+Website URLs (one per line):
+https://finance.yahoo.com
+https://www.marketwatch.com
+https://www.investing.com
+Parsing Description: "Extract the following fields from each stock listing: Company Name, Current Stock Price, Price Change (absolute or percentage), and the Market Time."
+
+5. Recipes
+Website URLs (one per line):
+
+https://www.allrecipes.com
+https://www.foodnetwork.com
+https://www.bonappetit.com
+Parsing Description: "Extract the following fields from each recipe: Title, Ingredients, Cooking Time, Rating (text or numeric), and the relative URL to the recipe's detail page."
+
+6. Job Listings
+Website URLs (one per line):
+
+https://www.indeed.com
+https://www.linkedin.com/jobs
+https://www.glassdoor.com
+Parsing Description: "Extract the following fields from each job listing: Job Title, Company, Location, Salary (if available), and the relative URL to the job listing page."
+
+7. Real Estate
+Website URLs (one per line):
+
+https://www.realtor.com
+https://www.zillow.com
+https://www.redfin.com
+Parsing Description: "Extract the following fields from each property listing: Property Title, Price, Location, Number of Bedrooms, Number of Bathrooms, and the relative URL to the property listing page."
+
+8. Social Media Profiles
+Website URLs (one per line):
+
+https://www.twitter.com
+https://www.instagram.com
+https://www.linkedin.com
+Parsing Description: "Extract the following fields from each profile: Username, Full Name, Bio, Number of Followers, and the relative URL to the profile page."
+
+9. Event Listings
+Website URLs (one per line):
+
+https://www.eventbrite.com
+https://www.meetup.com
+https://www.ticketmaster.com
+Parsing Description: "Extract the following fields from each event listing: Event Title, Date, Location, Ticket Price, and the relative URL to the event listing page."
+
+10. Sports Scores
+Website URLs (one per line):
+
+https://www.espn.com
+https://www.sports.yahoo.com
+https://www.scorespro.com
+Parsing Description: "Extract the following fields from each match: Team Names, Score, Date, Match Highlights, and the relative URL to the match details page."
+
+11. Movie Listings
+Website URLs (one per line):
+
+https://www.imdb.com
+https://www.rottentomatoes.com
+https://www.metacritic.com/movie
+Parsing Description: "Extract the following fields from each movie listing: Movie Title, Release Date, Rating, Genre, and the relative URL to the movie details page."
+
+12. Music Charts
+Website URLs (one per line):
+
+https://www.billboard.com/charts
+https://www.officialcharts.com
+https://www.itunescharts.net
+Parsing Description: "Extract the following fields from each chart entry: Song Title, Artist, Chart Position, Weeks on Chart, and the relative URL to the song's page."

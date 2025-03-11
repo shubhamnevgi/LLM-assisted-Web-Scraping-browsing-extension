@@ -81,7 +81,7 @@ GROQ_API_KEY=your_groq_api_key_here
 
 ### 5️⃣ Run FastAPI backend:  
 ```bash
-uvicorn backend.main:app --reload
+uvicorn backend.app:app --reload
 ```
 
 ### 6️⃣ Load Browser Extension  

@@ -17,12 +17,13 @@ if not groq_api_key:
 
 # Define the template for parsing instructions
 template = (
-    "You are tasked with extracting specific information from the following HTML content: {dom_content}\n\n"
-    "Please follow these instructions carefully:\n\n"
-    "1. Extract Information: Only extract the information that directly matches the provided description: {parse_description}.\n"
-    "2. No Extra Content: Do not include any additional text, comments, or explanations in your response.\n"
-    "3. Data Format: Format the data in CSV format with headers based on the parsed description.\n"
-    "4. Empty Response: If no information matches the description, return an empty string ('').\n"
+    "You are tasked with extracting specific information from the following HTML DOM content: {dom_content}\n\n"
+    "Follow these instructions EXACTLY:\n"
+    "1. Extract only the information that matches the provided description: {parse_description}.\n"
+    "2. Use fields coming from HTML attributes (such as title or alt), to extract the full attribute value without modifications.\n"
+    "3. Do not include any extra text, comments, or explanations.\n"
+    "4. Output the data in CSV format with headers matching the field names given in the description. Each field should be enclosed in double quotes.\n"
+    "5. If no matching information is found, return an empty string ('').\n"
 )
 
 # Initialize the Groq model
