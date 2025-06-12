@@ -1,11 +1,11 @@
-# Generative AI-based Web Scraping Browser Extension  
+# LLM assisted Web Scraping Browser Extension  
 
 ## 📌 Project Overview  
- A Generative AI-powered Web Scraping Browser Extension using FastAPI, BeautifulSoup, Selenium, and Llama 3.3 with LangChain (Groq's model). It extracts and structures web data, allowing users to input URLs, scrape dynamic content, and download data in CSV, JSON, XML, and Excel formats with AI-based parsing and future scalability.
+ A LLM assisted Web Scraping Browser Extension using FastAPI, BeautifulSoup, Selenium, and Llama 3.3 with LangChain (Groq's model). It extracts and structures web data, allowing users to input URLs, scrape dynamic content, and download data in CSV, JSON, XML, and Excel formats with AI-based parsing and future scalability.
 
 ---
 
-This project is a **Generative AI-powered Web Scraping Browser Extension** that enables users to extract data from websites efficiently. The extension allows users to input URLs, scrape web data dynamically, and format it into structured formats such as **CSV, JSON, XML, and Excel**. It integrates a **FastAPI backend** for handling scraping operations and AI-based data parsing.  
+This project is a **LLM assisted Web Scraping Browser Extension** that enables users to extract data from websites efficiently. The extension allows users to input URLs, scrape web data dynamically, and format it into structured formats such as **CSV, JSON, XML, and Excel**. It integrates a **FastAPI backend** for handling scraping operations and AI-based data parsing.  
 
 ## 🚀 Features  
 - **Web Scraping**: Extracts data from static and dynamic web pages using **BeautifulSoup** and **Selenium**.  
@@ -81,11 +81,7 @@ GROQ_API_KEY=your_groq_api_key_here
 
 ### 5️⃣ Run FastAPI backend:  
 ```bash
-<<<<<<< HEAD
 uvicorn backend.app:app --reload
-=======
-uvicorn backend.main:app --reload
->>>>>>> 591b0eda9c46a1bfc7af3ef912a20ece51fe5fdf
 ```
 
 ### 6️⃣ Load Browser Extension  
